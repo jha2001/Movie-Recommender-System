@@ -9,8 +9,7 @@ The purpose of a recommendation system basically is to search for content that w
 
   ### 1. Content Based:
 
-      This method recommends movies based on a user’s previous choices and the characteristics of the movies.
-      
+      This method recommends movies based on a user’s previous choices and the characteristics of the movies.  
    **How It Works:**
 
       * It analyzes movie features such as genre, director, actors, and description.
