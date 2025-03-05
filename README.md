@@ -58,21 +58,6 @@ The purpose of a recommendation system basically is to search for content that w
 
 
 
-# Project Structure #
-
-
-├── dataset/               # Movie dataset from Kaggle
-
-├── models/                # Trained ML model saved using Pickle
-
-├── app.py                 # Main script for recommendation
-
-├── requirements.txt       # Dependencies
-
-├── README.md              # Project Documentation
-
-
-
 # Installation #
 
 
