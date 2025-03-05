@@ -26,6 +26,7 @@ The purpose of a recommendation system basically is to search for content that w
 
     1.User-Based Collaborative Filtering:
     
+    
       * Finds users with similar tastes and recommends movies that those similar users liked.
       * Example: If User A and User B both liked Avengers, and User B also liked Iron Man, then Iron Man will be recommended to User A.
     
@@ -43,5 +44,55 @@ The purpose of a recommendation system basically is to search for content that w
    * Uses content-based filtering to find similar movies.
    * Uses collaborative filtering to recommend movies liked by similar users.
    * Merges both results to suggest the best options.
+     
+
+
+# Features #
+
+
+  * Content-Based Recommendation: Suggests similar movies based on their features.
+  * Dataset from Kaggle: Includes movie titles, genres, cast, plot, and ratings.
+  * Model Training in Google Colab: Uses Pandas, NumPy, and Scikit-learn.
+  * Trained Model Deployment: Saved using Pickle and integrated into a web app.
+  * Interactive Web Interface: Built with Streamlit for an intuitive user experience.
+
+
+
+# Project Structure #
+
+
+├── dataset/               # Movie dataset from Kaggle
+├── models/                # Trained ML model saved using Pickle
+├── app.py                 # Main script for recommendation
+├── requirements.txt       # Dependencies
+├── README.md              # Project Documentation
+
+
+
+# Installation #
+
+
+  ### 1. Clone the Repository
+
+
+         '''bash
+         git clone https://github.com/your-username/movie-recommender-system.git
+         cd movie-recommender-system
+
+         
+  ### 2. Install Dependencies
+
+
+        '''bash
+        pip install -r requirements.txt
+
+
+  ### 3. Run the Streamlit App:
+
+
+        '''bash
+          streamlit run app.py
+
+  
         
   
