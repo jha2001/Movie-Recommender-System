@@ -22,9 +22,7 @@ The purpose of a recommendation system basically is to search for content that w
       This method recommends movies based on what similar users have watched and liked.
       
    **Types:**
-
-    1.User-Based Collaborative Filtering:
-    
+     1.User-Based Collaborative Filtering:
     
       * Finds users with similar tastes and recommends movies that those similar users liked.
       * Example: If User A and User B both liked Avengers, and User B also liked Iron Man, then Iron Man will be recommended to User A.
